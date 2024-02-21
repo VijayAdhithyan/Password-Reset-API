@@ -32,7 +32,7 @@ const sendEmail = async (email, subject, payload) => {
         button: {
           color: "#DC4D2F",
           text: "Reset your password",
-          link: `http://localhost:5173${link}`,
+          link: `https://password-reset-pwd.netlify.app${link}`,
         },
       },
       outro:
